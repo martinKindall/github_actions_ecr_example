@@ -8,5 +8,6 @@ class ExampleApplicationTests {
 	@Test
 	void example() {
 		Assertions.assertEquals(1, 2 - 1);
+		Assertions.assertEquals(4, 2 + 2);
 	}
 }
