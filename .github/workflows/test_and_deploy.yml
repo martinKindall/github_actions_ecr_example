@@ -28,6 +28,9 @@ jobs:
       - name: Unit tests
         run: ./gradlew test --no-daemon
 
+      - name: Build Jar
+        run: ./gradlew bootJar --no-daemon
+
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
