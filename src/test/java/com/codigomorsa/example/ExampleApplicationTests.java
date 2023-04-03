@@ -9,6 +9,6 @@ class ExampleApplicationTests {
 	void example() {
 		Assertions.assertEquals(1, 2 - 1);
 		Assertions.assertEquals(4, 2 + 2);
-		Assertions.assertEquals("hallo", "hallo");
+		Assertions.assertEquals("hallo2", "hallo2");
 	}
 }
